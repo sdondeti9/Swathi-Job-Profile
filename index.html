@@ -37,7 +37,87 @@ I am always eager to learn, innovate, and contribute to cutting-edge Salesforce 
     </section>
     <section>
         <h2>Projects</h2>
-        <p>Check out my latest projects <a href="#">here</a>. These include custom Salesforce integrations, automation, and ServiceMax implementations.</p>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Project Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .toggle-header {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+        .toggle-header:hover {
+            background: #0056b3;
+        }
+        .content {
+            display: none;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 3px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Salesforce Implementation & Customization for Enhanced CRM Efficiency</h2>
+        
+        <div class="toggle-header" onclick="toggleSection('overview')">Project Overview</div>
+        <div id="overview" class="content">
+            <p>The project aimed to design, develop, and deploy a customized Salesforce solution...</p>
+        </div>
+        
+        <div class="toggle-header" onclick="toggleSection('responsibilities')">Key Responsibilities & Contributions</div>
+        <div id="responsibilities" class="content">
+            <ul>
+                <li>Followed Agile SCRUM methodology, participating in daily stand-up meetings.</li>
+                <li>Developed Apex classes, triggers, Lightning Web Components (LWC), and Visualforce pages.</li>
+                <li>Integrated Salesforce with ERP systems, communication apps, and DocuSign.</li>
+            </ul>
+        </div>
+        
+        <div class="toggle-header" onclick="toggleSection('technologies')">Technologies Used</div>
+        <div id="technologies" class="content">
+            <p>Salesforce (Sales Cloud, Service Cloud, Community Cloud, LWC, Apex, Visualforce)...</p>
+        </div>
+        
+        <div class="toggle-header" onclick="toggleSection('outcome')">Outcome & Business Impact</div>
+        <div id="outcome" class="content">
+            <p>Improved customer engagement and user experience through Community Cloud migration...</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleSection(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
+
     </section>
     <section>
         <h2>Contact</h2>
